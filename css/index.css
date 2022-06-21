@@ -1,0 +1,6 @@
+/**This is for large screens (PCs,TVs,..so on)**/
+@import url("./lrg.css");
+/**This is for mediam screens (tablets,Ipads,.. so on)**/
+@import url("./med.css");
+/**This is for small screens (mobile phones,..so on)**/
+@import url("./small.css");
