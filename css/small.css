@@ -80,7 +80,7 @@
     }
   
     .container .sec1 #header_items{
-        display: flex;
+        display: none;
         flex-direction: row;
         opacity: 0.8;    
         position:absolute;
