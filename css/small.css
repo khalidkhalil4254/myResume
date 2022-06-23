@@ -123,6 +123,7 @@
 #myContact p{
   color: white;
   font-family: Calibri;
+  font-size: 3vw;
   font-weight: bold;
   padding: 2vw;
 }
@@ -132,7 +133,7 @@
 #myContact p a{
   text-decoration: none;
   font-weight: bold;
-  color: rgb(200, 141, 255);
+  color: yellow;
 }
 
 
