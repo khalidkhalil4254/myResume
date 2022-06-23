@@ -13,7 +13,7 @@ var showMenu=function(){
 
         setTimeout(function rr(){
             menu_container.style.display='none';
-        },380);
+        },200);
 
     }
     else{
