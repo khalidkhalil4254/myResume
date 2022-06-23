@@ -35,7 +35,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 22vh 100vh 50vh;
+        grid-template-rows: 22vh 100vh 40vh;
         grid-template-areas: 'g1 g1'
         'g2 g2'
         'g3 g3';
@@ -50,7 +50,8 @@
         grid-area:g2 ;
     }
     .container > .sec3{
-        background-color: rebeccapurple;
+      background-color: #181B24;
+      opacity: 0.8;
         grid-area:g3 ;
     }
 
@@ -90,8 +91,8 @@
         background-color: #181B24;
         padding-top: 1.5vh;
         padding-bottom: 1.5vh;
-        padding-right: 6.68vw;
-        padding-left: 6.68vw;
+        padding-right: 6.5vw;
+        padding-left: 6.5vw;
         margin-top: 22vh;
     }
 
@@ -100,6 +101,43 @@
         height: 60vh;
     }
 
+
+
+/*footer elemnts (contact)*/
+#myContact{
+  display: flex;
+  flex-direction: column;
+  background-color: #181B24;
+  opacity: 0.8;
+  margin-left: 8vw;
+  margin-top: 10vh;
+}
+#myContact p{
+  color: white;
+  font-family: Calibri;
+  font-size: large;
+  font-weight: bold;
+  padding: 3vw;
+}
+#myContact p a{
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*static elemnts*/
 
     @keyframes apeare {
       63% {

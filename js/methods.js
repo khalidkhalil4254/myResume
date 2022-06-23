@@ -1,9 +1,10 @@
-/*these are the variables*/
+/*All of the variables*/
 var menu_btn=document.getElementsByClassName('material-symbols-outlined')[0];
 var menu_container=document.getElementById('header_items');
 var mybutton = document.getElementById("myBtn");
 var counter=1;
 
+//method to show and hide or open\close the Nav->menu
 var showMenu=function(){
     if(counter%2==0){
         menu_container.style.animationName='disapeare';
@@ -25,7 +26,9 @@ var showMenu=function(){
     }
     counter++;
 }
-// When the user clicks on the button, scroll to the top of the document
+
+
+// methods of showing and event handler for the go to top btn 
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -39,4 +42,5 @@ function topFunction() {
   }
 
 
+//exporting all we want to another js file to be used there:
 export{showMenu,menu_btn,menu_container,topFunction,scrollFunction,mybutton}
