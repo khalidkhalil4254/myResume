@@ -105,6 +105,12 @@
 
 
 /*footer elemnts (contact)*/
+#contact_title{
+  color: white;
+  font-family: Calibri;
+  margin-top: 5vh;
+  margin-left: 8vw;
+}
 #myContact{
   display: flex;
   flex-direction: column;
@@ -112,7 +118,7 @@
   background-color: #181B24;
   opacity: 0.8;
   margin-left: 10vw;
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 #myContact p{
   color: white;
