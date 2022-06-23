@@ -90,8 +90,8 @@
         background-color: #181B24;
         padding-top: 1.5vh;
         padding-bottom: 1.5vh;
-        padding-right: 6.6vw;
-        padding-left: 6.6vw;
+        padding-right: 6.65vw;
+        padding-left: 6.65vw;
         margin-top: 22vh;
     }
 
@@ -102,7 +102,7 @@
 
 
     @keyframes apeare {
-      60% {
+      62% {
         transform: translate(0%);
       }
       100% {
@@ -111,7 +111,7 @@
     }
 
     @keyframes disapeare {
-      60% {
+      62% {
         transform: translate(100%);
       }
       100% {
