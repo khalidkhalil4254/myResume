@@ -97,8 +97,9 @@
     }
 
     #myCV{
-        width: 100vw;
-        height: 60vh;
+      margin-left: -1vw;
+      width: 100vw;
+      height: 60vh;
     }
 
 
@@ -107,22 +108,25 @@
 #myContact{
   display: flex;
   flex-direction: column;
+  letter-spacing: 0.4vw;
   background-color: #181B24;
   opacity: 0.8;
-  margin-left: 8vw;
+  margin-left: 10vw;
   margin-top: 10vh;
 }
 #myContact p{
   color: white;
   font-family: Calibri;
-  font-size: large;
   font-weight: bold;
-  padding: 3vw;
+  padding: 2vw;
+}
+#myContact p i{
+  margin-right: 3vw;
 }
 #myContact p a{
   text-decoration: none;
   font-weight: bold;
-  color: blue;
+  color: rgb(200, 141, 255);
 }
 
 
