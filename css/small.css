@@ -114,15 +114,8 @@
 
 /*potofolio section*/
 /* Slideshow container */
-#myPotofolio{
-  text-align: center;
-  color: #181B24;
-  opacity: 0.75;
-  font-family: Calibri;
-  margin-top: 15vh;
-}
 .slideshow-container {
-  margin-top: 8vh;
+  margin-top: 18vh;
   max-width: 1000px;
   position: relative;
 }
