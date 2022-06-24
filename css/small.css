@@ -35,7 +35,7 @@
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 22vh 200vh 40vh;
+        grid-template-rows: 22vh 280vh 40vh;
         grid-template-areas: 'g1 g1'
         'g2 g2'
         'g3 g3';
@@ -118,18 +118,17 @@
   color: #181B24;
   opacity: 0.75;
   font-family: Calibri;
-  margin-top: 5vh;
+  margin-top: 15vh;
   margin-left: 8vw;
 }
 .slideshow-container {
-  margin-top: 2vh;
+  margin-top: 8vh;
   max-width: 1000px;
   position: relative;
 }
 
 .slideshow-container .slid_img{
-  width: 5vw;
-  height: 120vh;
+  height: 140vh;
 }
 
 /* Caption text */
