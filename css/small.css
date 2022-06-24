@@ -132,9 +132,9 @@
   font-size: 3.8vw;
 }
 #myContact p a{
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
-  color: yellow;
+  color: rgb(52, 140, 255);
 }
 
 
