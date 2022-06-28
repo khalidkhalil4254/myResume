@@ -48,11 +48,17 @@ function topFunction() {
 
   //method to show and hide the portofolio:
   function openpop(){
-    porto_container.style.display="flex";
+    porto_container.style.animationName="popUP";
+    setTimeout(function rr(){
+      porto_container.style.display="flex";
+    },200);
     console.log("this is the open func.");
   }
   function closepop(){
-    porto_container.style.display="none";
+    porto_container.style.animationName="popDown";
+    setTimeout(function rr(){
+      porto_container.style.display="none";
+    },200);
     console.log("this is the close func.");
   }
 
