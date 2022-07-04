@@ -108,33 +108,41 @@
 
 /*my work container*/
 .myWork_container{
-  display: flex;
+  display: none;
   animation-name: popUP;
   animation-duration: 0.4s;
   animation-direction: normal;
   flex-direction: column;
   position:fixed;
   top: 0;
-  background-color: #181b24c4;
+  background-color: rgba(255, 255, 255, 0.432);
   width: 100%;
   height: 100%;
 }
 
 #close_icon{
   font-size: 10vw;
-  color: white;
+  color: black;
   position: relative;
-  top: 3vh;
-  left: 80%;
+  top: 2.6vh;
+  left: 86%;
 }
 
 
 /*potofolio section*/
 /* Slideshow container */
 .slideshow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   max-width: 1000px;
   position: relative;
-  top: 15vh;
+  top: 8vh;
+}
+
+.slideshow-container img{
+  width: 60vw;
+  display: block;
 }
 
 .slideshow-container .slid_img{
@@ -144,14 +152,13 @@
 
 /* Caption text */
 .text {
-  display: none;
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  color: black;
+  font-size: 8vw;
+  font-weight: bolder;
+  font-family: Calibri;
+  position: relative;
+  top: -5vh;
   width: 100%;
-  text-align: center;
 }
 
 /* Number text (1/3 etc) */
@@ -165,17 +172,19 @@
 
 /* The dots/bullets/indicators */
 .dot {
+  position: absolute;
+  top: 85vh;
+  right: 50%;
   height: 15px;
   width: 15px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #3a3a3a;
 }
 
 /* Fading animation */
